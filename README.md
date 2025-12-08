@@ -129,6 +129,7 @@ NetNova/
 │   │   │   ├── 📄 About.jsx        # ℹ️ Platform information
 │   │   │   └── 📄 Help.jsx         # 📖 Documentation
 │   │   └── 📄 App.jsx              # 🔄 Main React component
+│   ├── 📄 vercel.json              # ⚡ Vercel deployment config
 │   └── 📄 package.json             # 📦 Node.js dependencies
 ├── 📂 notebook/                    # 📓 ML development
 │   └── 📄 model_training.ipynb     # 🧪 Model training notebook
