@@ -356,6 +356,12 @@ cd backend && pip install -r requirements.txt
 
 **🎬 Built with ❤️ for Streaming Excellence | Transforming Entertainment Industry Through AI Innovation**
 
+</div>
+
+---
+
+<div align="center">
+
 **© 2025 NetNova - Netflix Content Intelligence Platform. All Rights Reserved.**
 
 </div>
