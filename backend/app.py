@@ -327,10 +327,16 @@ def health_check():
 
 if __name__ == "__main__":
     import uvicorn
+    import os
+    
     print("🚀 Starting NetNova - Netflix Content Insights API...")
     print(f"📊 Dataset loaded: {len(df)} records")
     print(f"🤖 Model status: {'✅ Active' if model else '❌ Not loaded (using fallback)'}")
     print(f"⚖️ Scaler status: {'✅ Active' if scaler is not None else '❌ Not loaded'}")
-    print(f"🌐 Server will be available at: http://localhost:8002")
+    
+    # Get port from environment (Render sets this)
+    port = int(os.environ.get("PORT", 8002))
+    print(f"🌐 Server starting on port: {port}")
     print("="*50)
-    uvicorn.run(app, host="0.0.0.0", port=8002)
+    
+    uvicorn.run(app, host="0.0.0.0", port=port)
