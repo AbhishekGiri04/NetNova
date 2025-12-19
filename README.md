@@ -4,17 +4,7 @@
   🚀 A comprehensive full-stack AI-powered business intelligence platform that transforms Netflix's 7,789+ content dataset into actionable strategic insights for <b>streaming platforms</b> and content strategists.
 </p>
 
-<p align="center">
-  <a href="https://netnova-dev.onrender.com" target="_blank">
-    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Platform-red?style=for-the-badge&logo=netflix&logoColor=white" alt="Live Demo"/>
-  </a>
-  <a href="https://netnova-dev.onrender.com/docs" target="_blank">
-    <img src="https://img.shields.io/badge/📚%20API%20Docs-Interactive-blue?style=for-the-badge&logo=swagger&logoColor=white" alt="API Documentation"/>
-  </a>
-  <a href="https://github.com/AbhishekGiri04/NetNova" target="_blank">
-    <img src="https://img.shields.io/github/stars/AbhishekGiri04/NetNova?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/>
-  </a>
-</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
@@ -179,7 +169,7 @@ NetNova/
 | **Frontend Platform** | [netnova-frontend.vercel.app](https://netnova-frontend.vercel.app) | Main application interface |
 | **Backend API** | [netnova-dev.onrender.com](https://netnova-dev.onrender.com) | RESTful API services |
 | **API Documentation** | [netnova-dev.onrender.com/docs](https://netnova-dev.onrender.com/docs) | Interactive API docs |
-| **GitHub Repository** | [github.com/AbhishekGiri04/NetNova](https://github.com/AbhishekGiri04/NetNova) | Source code |
+
 
 </div>
 
@@ -375,22 +365,6 @@ cd backend && pip install -r requirements.txt
 
 ---
 
-### 🎆 **Star this repository if you found it helpful!**
-
-<a href="https://github.com/AbhishekGiri04/NetNova">
-  <img src="https://img.shields.io/github/stars/AbhishekGiri04/NetNova?style=social" alt="GitHub Stars"/>
-</a>
-<a href="https://github.com/AbhishekGiri04/NetNova/fork">
-  <img src="https://img.shields.io/github/forks/AbhishekGiri04/NetNova?style=social" alt="GitHub Forks"/>
-</a>
-<a href="https://github.com/AbhishekGiri04/NetNova/watchers">
-  <img src="https://img.shields.io/github/watchers/AbhishekGiri04/NetNova?style=social" alt="GitHub Watchers"/>
-</a>
-
----
-
 **© 2025 NetNova - Netflix Content Intelligence Platform. All Rights Reserved.**
-
-**🎬 Built with ❤️ for Streaming Excellence | Transforming Entertainment Through AI Innovation**
 
 </div>
