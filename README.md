@@ -5,6 +5,18 @@
 </p>
 
 <p align="center">
+  <a href="https://netnova-dev.onrender.com" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20Platform-red?style=for-the-badge&logo=netflix&logoColor=white" alt="Live Demo"/>
+  </a>
+  <a href="https://netnova-dev.onrender.com/docs" target="_blank">
+    <img src="https://img.shields.io/badge/📚%20API%20Docs-Interactive-blue?style=for-the-badge&logo=swagger&logoColor=white" alt="API Documentation"/>
+  </a>
+  <a href="https://github.com/AbhishekGiri04/NetNova" target="_blank">
+    <img src="https://img.shields.io/github/stars/AbhishekGiri04/NetNova?style=for-the-badge&logo=github&color=yellow" alt="GitHub Stars"/>
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
   <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -156,7 +168,24 @@ NetNova/
 
 ---
 
-## 📦 How to Run
+## 🌐 Live Platform
+
+<div align="center">
+
+### 🚀 **Access NetNova Platform**
+
+| 🔗 **Service** | 🌍 **Live URL** | 📝 **Description** |
+|:---------------|:----------------|:-------------------|
+| **Frontend Platform** | [netnova-frontend.vercel.app](https://netnova-frontend.vercel.app) | Main application interface |
+| **Backend API** | [netnova-dev.onrender.com](https://netnova-dev.onrender.com) | RESTful API services |
+| **API Documentation** | [netnova-dev.onrender.com/docs](https://netnova-dev.onrender.com/docs) | Interactive API docs |
+| **GitHub Repository** | [github.com/AbhishekGiri04/NetNova](https://github.com/AbhishekGiri04/NetNova) | Source code |
+
+</div>
+
+---
+
+## 📦 Local Development Setup
 
 ### 📌 Prerequisites
 - ✅ **Node.js 18+** installed
@@ -172,7 +201,7 @@ NetNova/
 1. Clone and start all services:
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/AbhishekGiri04/NetNova.git
    cd NetNova
    chmod +x run.sh
    ./run.sh
@@ -181,8 +210,8 @@ NetNova/
 2. Access the platform:
 
    ```
-   Frontend: http://localhost:2500
-   Backend:  http://localhost:8002
+   Frontend: http://localhost:3000
+   Backend:  https://netnova-dev.onrender.com
    ```
 
 ### 🔧 Manual Setup
@@ -220,15 +249,18 @@ npm run dev
 ## 🌐 API Endpoints
 
 ```bash
-# Backend API (Port 8002)
-GET  /api/summary           # Overall content statistics
-GET  /api/genres            # Genre distribution analysis
-GET  /api/countries         # Country-wise content data
-GET  /api/trends            # Yearly content trends
-GET  /api/predict           # ML model predictions
-POST /api/predict-custom    # Custom content predictions
-GET  /api/recommendations   # Strategic business insights
-GET  /api/health            # System health check
+# Backend API (Live on Render)
+GET  https://netnova-dev.onrender.com/api/summary           # Overall content statistics
+GET  https://netnova-dev.onrender.com/api/genres            # Genre distribution analysis
+GET  https://netnova-dev.onrender.com/api/countries         # Country-wise content data
+GET  https://netnova-dev.onrender.com/api/trends            # Yearly content trends
+GET  https://netnova-dev.onrender.com/api/predict           # ML model predictions
+POST https://netnova-dev.onrender.com/api/predict-custom   # Custom content predictions
+GET  https://netnova-dev.onrender.com/api/recommendations   # Strategic business insights
+GET  https://netnova-dev.onrender.com/api/health            # System health check
+
+# API Documentation
+https://netnova-dev.onrender.com/docs                      # Interactive API docs
 ```
 <br>
 
@@ -237,13 +269,13 @@ GET  /api/health            # System health check
 ## 🧪 Testing
 
 ```bash
-# Test API endpoints
-curl http://localhost:8002/api/summary
-curl http://localhost:8002/api/predict
-curl http://localhost:8002/api/health
+# Test Live API endpoints
+curl https://netnova-dev.onrender.com/api/summary
+curl https://netnova-dev.onrender.com/api/predict
+curl https://netnova-dev.onrender.com/api/health
 
-# Test frontend
-cd frontend && npm run test
+# Test frontend locally
+cd frontend && npm run dev
 ```
 
 ## ⚠️ Common Issues
@@ -251,14 +283,14 @@ cd frontend && npm run test
 **Model loading failed:**
 ```bash
 cd backend
-pip install scikit-learn==1.7.2
+pip install scikit-learn>=1.3.0,<1.6.0
 python app.py
 ```
 
 **Port already in use:**
 ```bash
 lsof -ti:8002 | xargs kill -9
-lsof -ti:2500 | xargs kill -9
+lsof -ti:3000 | xargs kill -9
 ./run.sh
 ```
 
@@ -273,29 +305,38 @@ cd backend && pip install -r requirements.txt
 
 ## 📊 Performance Metrics
 
-- **84.2% ML Accuracy** — Content success prediction precision with Random Forest
-- **7,789+ Titles** — Comprehensive Netflix dataset analysis and processing
-- **<200ms API Response** — High-performance backend processing with FastAPI
-- **99.9% Uptime** — Reliable service availability and system monitoring
-- **50+ Countries** — Global market intelligence coverage and analysis
-- **92.5% Confidence** — Average model prediction confidence scoring
+<div align="center">
+
+| 🎯 **Metric** | 📊 **Value** | 📝 **Description** |
+|:----------------|:-------------|:-------------------|
+| **ML Accuracy** | **84.2%** | Content success prediction precision with Random Forest |
+| **Dataset Size** | **7,789+ Titles** | Comprehensive Netflix content analysis |
+| **API Response** | **<200ms** | High-performance backend processing |
+| **System Uptime** | **99.9%** | Reliable service availability |
+| **Global Coverage** | **50+ Countries** | Market intelligence coverage |
+| **Model Confidence** | **92.5%** | Average prediction confidence scoring |
+| **Deployment Status** | **✅ Live** | Production-ready on Render & Vercel |
+
+</div>
 
 <br>
 
 ---
 
-## 🌱 Future Scope
-- 📱 **Mobile Application** — Cross-platform mobile app for iOS and Android
+## 🌱 Future Roadmap
 
-- 🌍 **Real-time Data Feeds** — Integration with live streaming platform APIs
+<div align="center">
 
-- 📊 **Advanced ML Models** — Deep learning, neural networks, and ensemble methods
+| 🕰️ **Phase** | 🎯 **Feature** | 📝 **Description** | 📅 **Status** |
+|:------------|:--------------|:-------------------|:-------------|
+| **Phase 1** | Mobile Application | Cross-platform iOS/Android app | 📅 Planned |
+| **Phase 2** | Real-time Data Feeds | Live streaming platform APIs | 📅 Planned |
+| **Phase 3** | Advanced ML Models | Deep learning & neural networks | 🔄 In Progress |
+| **Phase 4** | Enterprise Security | Enhanced authentication systems | 📅 Planned |
+| **Phase 5** | Cloud Scaling | AWS/Azure microservices | 📅 Planned |
+| **Phase 6** | Multi-platform Support | Disney+, Hulu, Prime Video | 🔍 Research |
 
-- 🔐 **Enterprise Security** — Enhanced authentication, encryption, and access control
-
-- 🚀 **Cloud Deployment** — AWS/Azure scalable infrastructure and microservices
-
-- 🎬 **Multi-platform Support** — Disney+, Hulu, Prime Video integration and analysis
+</div>
 
   <br>
 
@@ -332,6 +373,24 @@ cd backend && pip install -r requirements.txt
 
 <div align="center">
 
+---
+
+### 🎆 **Star this repository if you found it helpful!**
+
+<a href="https://github.com/AbhishekGiri04/NetNova">
+  <img src="https://img.shields.io/github/stars/AbhishekGiri04/NetNova?style=social" alt="GitHub Stars"/>
+</a>
+<a href="https://github.com/AbhishekGiri04/NetNova/fork">
+  <img src="https://img.shields.io/github/forks/AbhishekGiri04/NetNova?style=social" alt="GitHub Forks"/>
+</a>
+<a href="https://github.com/AbhishekGiri04/NetNova/watchers">
+  <img src="https://img.shields.io/github/watchers/AbhishekGiri04/NetNova?style=social" alt="GitHub Watchers"/>
+</a>
+
+---
+
 **© 2025 NetNova - Netflix Content Intelligence Platform. All Rights Reserved.**
+
+**🎬 Built with ❤️ for Streaming Excellence | Transforming Entertainment Through AI Innovation**
 
 </div>

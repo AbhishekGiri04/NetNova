@@ -54,10 +54,10 @@ function Footer() {
           <div>
             <h4 className="font-semibold text-white mb-4">Features</h4>
             <ul className="space-y-2 text-sm">
-              <li className="hover:text-netflix-red transition-colors cursor-pointer">Content Analytics</li>
-              <li className="hover:text-netflix-red transition-colors cursor-pointer">AI Predictions</li>
-              <li className="hover:text-netflix-red transition-colors cursor-pointer">Market Insights</li>
-              <li className="hover:text-netflix-red transition-colors cursor-pointer">Performance Metrics</li>
+              <li><a href="/dashboard" className="hover:text-netflix-red transition-colors cursor-pointer">Content Analytics</a></li>
+              <li><a href="/predictions" className="hover:text-netflix-red transition-colors cursor-pointer">AI Predictions</a></li>
+              <li><a href="/analytics" className="hover:text-netflix-red transition-colors cursor-pointer">Market Insights</a></li>
+              <li><a href="/recommendations" className="hover:text-netflix-red transition-colors cursor-pointer">Performance Metrics</a></li>
             </ul>
           </div>
           

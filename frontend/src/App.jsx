@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -12,17 +12,20 @@ import About from './pages/About';
 import Help from './pages/Help';
 
 function AppContent() {
-  const navigate = useNavigate();
   const [loading, setLoading] = useState(true);
+  const [initialLoad, setInitialLoad] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
+    if (initialLoad) {
+      const timer = setTimeout(() => {
+        setLoading(false);
+        setInitialLoad(false);
+      }, 3000);
+      return () => clearTimeout(timer);
+    } else {
       setLoading(false);
-      navigate('/');
-    }, 3000);
-
-    return () => clearTimeout(timer);
-  }, [navigate]);
+    }
+  }, [initialLoad]);
 
   if (loading) {
     return <LoadingPage />;

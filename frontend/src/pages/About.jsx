@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-netflix-black via-gray-900 to-black">
+    <div className="min-h-screen bg-gradient-to-br from-netflix-black via-gray-900 to-black overflow-x-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-72 h-72 bg-netflix-red/5 rounded-full blur-3xl animate-pulse"></div>
@@ -428,13 +428,13 @@ function About() {
               </div>
               <h2 className="text-4xl font-bold text-white mb-6">The Future of Entertainment Intelligence</h2>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-                NetNova represents the convergence of <span className="text-netflix-red font-semibold">data science and creative strategy</span>, delivering production-grade analytics that empowers streaming platforms to make <span className="text-netflix-red font-semibold">$100M+ content investment decisions</span> with confidence.
+                NetNova represents the convergence of data science and creative strategy, delivering production-grade analytics that empowers streaming platforms to make $100M+ content investment decisions with confidence.
               </p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-netflix-black/30 p-6 rounded-2xl text-left">
                   <h4 className="text-lg font-bold text-white mb-3">Quick Start</h4>
                   <div className="bg-gray-900 p-3 rounded-lg font-mono text-sm text-green-400">
-                    <div>git clone &lt;repository&gt;</div>
+                    <div>git clone https://github.com/AbhishekGiri04/NetNova</div>
                     <div>cd NetNova</div>
                     <div>chmod +x run.sh</div>
                     <div>./run.sh</div>
