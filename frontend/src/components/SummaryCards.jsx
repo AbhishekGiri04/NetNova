@@ -5,7 +5,7 @@ function SummaryCards() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8002/api/summary")
+    fetch("https://netnova-dev.onrender.com/api/summary")
       .then(res => res.json())
       .then(data => {
         setSummary(data);

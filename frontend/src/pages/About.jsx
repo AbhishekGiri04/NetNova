@@ -449,11 +449,11 @@ function About() {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-400">Backend:</span>
-                      <span className="text-netflix-red">localhost:8002</span>
+                      <span className="text-netflix-red">netnova-dev.onrender.com</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-400">API Docs:</span>
-                      <span className="text-netflix-red">localhost:8002/docs</span>
+                      <span className="text-netflix-red">netnova-dev.onrender.com/docs</span>
                     </div>
                   </div>
                 </div>

@@ -254,7 +254,7 @@ function Help() {
                     <h3 className="text-xl font-bold text-netflix-red mb-4">Base URL</h3>
                     <div className="bg-gray-900 p-4 rounded-xl border border-gray-700">
                       <code className="text-green-400 font-mono text-lg">
-                        http://localhost:8002/api
+                        https://netnova-dev.onrender.com/api
                       </code>
                     </div>
                   </div>

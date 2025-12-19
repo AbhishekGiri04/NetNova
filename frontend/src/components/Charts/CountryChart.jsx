@@ -6,7 +6,7 @@ function CountryChart() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8002/api/countries')
+    fetch('https://netnova-dev.onrender.com/api/countries')
       .then(res => res.json())
       .then(countryData => {
         const chartData = Object.entries(countryData).map(([name, value]) => ({

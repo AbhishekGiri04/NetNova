@@ -5,7 +5,7 @@ function Home() {
   const [stats, setStats] = useState(null);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8002/api/summary')
+    fetch('https://netnova-dev.onrender.com/api/summary')
       .then(res => res.json())
       .then(data => setStats(data))
       .catch(err => console.error(err));

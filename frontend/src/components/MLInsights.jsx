@@ -7,8 +7,8 @@ function MLInsights() {
 
   useEffect(() => {
     Promise.all([
-      fetch('http://127.0.0.1:8002/api/predict').then(res => res.json()),
-      fetch('http://127.0.0.1:8002/api/recommendations').then(res => res.json())
+      fetch('https://netnova-dev.onrender.com/api/predict').then(res => res.json()),
+      fetch('https://netnova-dev.onrender.com/api/recommendations').then(res => res.json())
     ])
     .then(([predictData, recData]) => {
       setInsights(predictData);

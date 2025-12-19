@@ -8,7 +8,7 @@ function GenreChart() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://127.0.0.1:8002/api/genres')
+    fetch('https://netnova-dev.onrender.com/api/genres')
       .then(res => res.json())
       .then(genreData => {
         const chartData = Object.entries(genreData).map(([name, value]) => ({

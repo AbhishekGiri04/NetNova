@@ -7,8 +7,8 @@ function Analytics() {
 
   useEffect(() => {
     Promise.all([
-      fetch('http://127.0.0.1:8002/api/recommendations').then(res => res.json()),
-      fetch('http://127.0.0.1:8002/api/summary').then(res => res.json())
+      fetch('https://netnova-dev.onrender.com/api/recommendations').then(res => res.json()),
+      fetch('https://netnova-dev.onrender.com/api/summary').then(res => res.json())
     ])
     .then(([recData, summaryData]) => {
       setRecommendations(recData.recommendations || []);

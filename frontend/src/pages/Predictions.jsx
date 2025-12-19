@@ -14,8 +14,8 @@ function Predictions() {
 
   useEffect(() => {
     Promise.all([
-      fetch('http://127.0.0.1:8002/api/predict').then(res => res.json()),
-      fetch('http://127.0.0.1:8002/api/recommendations').then(res => res.json())
+      fetch('https://netnova-dev.onrender.com/api/predict').then(res => res.json()),
+      fetch('https://netnova-dev.onrender.com/api/recommendations').then(res => res.json())
     ])
     .then(([predData, recData]) => {
       setPredictions(predData);
@@ -33,7 +33,7 @@ function Predictions() {
     
     try {
       // Use real ML model API
-      const response = await fetch('http://127.0.0.1:8002/api/predict-custom', {
+      const response = await fetch('https://netnova-dev.onrender.com/api/predict-custom', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
