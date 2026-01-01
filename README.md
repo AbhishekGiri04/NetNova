@@ -112,32 +112,51 @@ NetNova/
 │   ├── 📂 utils/
 │   │   └── 📄 analysis.py          # 📈 Data processing utilities
 │   ├── 📄 app.py                   # 🚀 Main FastAPI application
+│   ├── 📄 render.yaml              # 🚀 Render deployment config
 │   └── 📄 requirements.txt         # 📦 Python dependencies
+├── 📂 docs/                        # 📸 Platform screenshots
+│   ├── 📄 About_Page.png           # ℹ️ About page screenshot
+│   ├── 📄 Content_Predictions.png  # 🎯 Predictions page screenshot
+│   ├── 📄 Dashboard.png            # 📊 Dashboard screenshot
+│   ├── 📄 Help_And_Documentation.png # 📖 Help page screenshot
+│   ├── 📄 Home_Page.png            # 🏠 Home page screenshot
+│   ├── 📄 Loading_Page.png         # ⏳ Loading screen screenshot
+│   ├── 📄 Market_Analytics.png     # 📈 Analytics page screenshot
+│   └── 📄 Strategic_Recommendations.png # 💡 Recommendations screenshot
 ├── 📂 frontend/                    # 🎨 React frontend application
 │   ├── 📂 src/
 │   │   ├── 📂 components/          # 🧩 Reusable UI components
 │   │   │   ├── 📂 Charts/          # 📊 Data visualization components
-│   │   │   ├── 📄 Navbar.jsx       # 🔝 Navigation header
+│   │   │   │   ├── 📄 CountryChart.jsx # 🌍 Country distribution chart
+│   │   │   │   └── 📄 GenreChart.jsx   # 🎭 Genre distribution chart
 │   │   │   ├── 📄 Footer.jsx       # 🔻 Footer component
 │   │   │   ├── 📄 LoadingPage.jsx  # ⏳ Netflix-style loading screen
 │   │   │   ├── 📄 MLInsights.jsx   # 🤖 ML predictions display
+│   │   │   ├── 📄 Navbar.jsx       # 🔝 Navigation header
 │   │   │   └── 📄 SummaryCards.jsx # 📋 Statistics cards
 │   │   ├── 📂 pages/               # 📄 Main application pages
-│   │   │   ├── 📄 Home.jsx         # 🏠 Landing page
-│   │   │   ├── 📄 Dashboard.jsx    # 📊 Analytics dashboard
-│   │   │   ├── 📄 Analytics.jsx    # 📈 Market analytics
-│   │   │   ├── 📄 Predictions.jsx  # 🎯 AI predictions interface
-│   │   │   ├── 📄 Recommendations.jsx # 💡 Strategic insights
 │   │   │   ├── 📄 About.jsx        # ℹ️ Platform information
-│   │   │   └── 📄 Help.jsx         # 📖 Documentation
-│   │   └── 📄 App.jsx              # 🔄 Main React component
+│   │   │   ├── 📄 Analytics.jsx    # 📈 Market analytics
+│   │   │   ├── 📄 Dashboard.jsx    # 📊 Analytics dashboard
+│   │   │   ├── 📄 Help.jsx         # 📖 Documentation
+│   │   │   ├── 📄 Home.jsx         # 🏠 Landing page
+│   │   │   ├── 📄 Predictions.jsx  # 🎯 AI predictions interface
+│   │   │   └── 📄 Recommendations.jsx # 💡 Strategic insights
+│   │   ├── 📄 App.jsx              # 🔄 Main React component
+│   │   ├── 📄 index.css            # 🎨 Global styles
+│   │   └── 📄 main.jsx             # ⚡ React entry point
+│   ├── 📄 index.html               # 📄 HTML template
+│   ├── 📄 package.json             # 📦 Node.js dependencies
+│   ├── 📄 postcss.config.js        # 🎨 PostCSS configuration
+│   ├── 📄 tailwind.config.js       # 🎨 Tailwind CSS config
 │   ├── 📄 vercel.json              # ⚡ Vercel deployment config
-│   └── 📄 package.json             # 📦 Node.js dependencies
+│   └── 📄 vite.config.js           # ⚡ Vite build configuration
 ├── 📂 notebook/                    # 📓 ML development
 │   └── 📄 model_training.ipynb     # 🧪 Model training notebook
-├── 📄 run.sh                       # 🚀 Professional startup script
 ├── 📄 .gitignore                   # 🚫 Git ignore rules
-└── 📄 README.md                    # 📖 Project documentation
+├── 📄 LICENSE                      # 📄 MIT License
+├── 📄 README.md                    # 📖 Project documentation
+└── 📄 run.sh                       # 🚀 Professional startup script
 ```
 <br>
 
@@ -335,7 +354,7 @@ cd backend && pip install -r requirements.txt
 ## 📞 Help & Contact  
 
 > 💬 *Got questions or need assistance with NetNova Platform?*  
-> We're here to help with technical support and collaboration!
+> We're here to help with integration and customization!
 
 <div align="center">
 
@@ -351,6 +370,12 @@ cd backend && pip install -r requirements.txt
 </a>
 
 <br/>
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
