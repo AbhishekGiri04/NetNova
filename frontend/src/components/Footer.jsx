@@ -90,7 +90,7 @@ function Footer() {
         
         <div className="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-500 mb-4 md:mb-0">
-            © 2025 NetNova. All rights reserved.
+            © 2026 NetNova. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="hover:text-netflix-red transition-colors">Privacy Policy</a>
